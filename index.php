@@ -2,6 +2,7 @@
 session_start();
 if(isset($_SESSION["uid"])){
 	header("location:profile.php");
+
 }
 ?>
 <!DOCTYPE html>
@@ -81,6 +82,7 @@ if(isset($_SESSION["uid"])){
 										<input type="password" class="form-control" name="password" id="password" required/>
 										<p><br/></p>
 										<a href="#" style="color:white; list-style:none;">Forgotten Password</a><input type="submit" class="btn btn-success" style="float:right;">
+										<a href="customer_registration.php" style="color:white; list-style:none;">Register</a><input type="submit" class="btn btn-success" style="float:right;">
 									</form>
 								</div>
 								<div class="panel-footer" id="e_msg"></div>
