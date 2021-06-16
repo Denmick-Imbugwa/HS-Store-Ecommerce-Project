@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$db = "ecommerce_db";
+$db = "linelpoultry";
 
 // Create connection
 $con = mysqli_connect($servername, $username, $password,$db);
